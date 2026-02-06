@@ -1,75 +1,95 @@
 ---
 layout: default
+title: Hardik Khichi
 ---
-
-[Education](#education) [Experience](#experience) [Projects](#projects) [Skills](#skills)
 
 # Hardik Khichi
 
-📍 Gurugram, India  
-📧 [hardikkhichi.iitd@gmail.com](mailto:hardikkhichi.iitd@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/hardik-khichi)  
-🌐 [Website](https://khichinho.github.io/)
-
----
-
-## 📌 Navigation
-
-* [Education](#education)
-* [Experience](#experience)
-* [Skills](#skills)
+**Senior Machine Learning Engineer | MLOps & Full Stack**  
+📧 [Email](mailto:hardikkhichi.iitd@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/hardik-khichi) | 📍 Gurugram, India
 
 ---
 
 ## Education
 
 **Indian Institute of Technology Delhi**  
-_B.Tech. & M.Tech. (Dual Degree) in Computer Science_  
-**Jun 2016 – Jun 2021**
-
-**Achievements:**
-* 99.97 Percentile in IIT-JEE 2016
-* GCP Associate Cloud Engineer
-* NTSE Scholar
+_Bachelor's and Master's of Technology (Dual Degree) in Computer Science_  
+**June 2016 – June 2021**
 
 ---
 
 ## Experience
 
-### Senior Machine Learning Engineer (R&D) — _KEYSIGHT_
+### Senior Machine Learning Engineer (R&D) — _Keysight_
 
-**January 2025 – Present**
+**Jan 2025 – Present**
 
-* **Architected and productionized** a vendor-neutral ML SaaS platform from the ground up, scaling adoption from zero to **300+ daily active users** globally.
-* **Engineered** a distributed execution engine utilizing **NATS** and **Zarr** data-chunking to parallelize DNN explainability tests for **multi-terabyte (TB) sensor datasets**.
-* **Strategized and implemented** an open-source storage layer using **MinIO and LakeFS**, migrating 100% of internal research data to a version-controlled ecosystem.
-* **Independent Project:** Developed a full-stack access layer and Python client integrating **Plotly** for real-time visualization of chunked datasets.
-* **Optimized** the MLOps lifecycle via **MLflow**, reducing model-to-production cycle times from **hours to <10 minutes**.
+* Architected and productionized a vendor-neutral ML SaaS platform using **FastAPI** and **Vanilla Kubernetes** for Tier-1 automotive and semiconductor partners  
+→ Scaled adoption from zero to **300+ daily active users** globally in **<1 year**
+
+* Engineered a distributed execution engine utilizing **NATS** and **Zarr** data-chunking to parallelize DNN explainability tests across optimized pods  
+→ Enabled scalable processing of **multi-terabyte (TB) sensor datasets**
+
+* Strategized a 100% open-source storage and metadata layer using **MinIO** and **LakeFS** to ensure zero vendor lock-in  
+→ Migrated **100% of internal research data** from legacy servers to a versioned ecosystem
+
+* Developed a full-stack access layer and Python client integrating **Plotly** for real-time visualization of chunked dataset transformations  
+→ Facilitated **1k+ automated transformation previews** for researchers
+
+* Optimized the end-to-end MLOps lifecycle via **MLflow** for automated hyperparameter tuning and experiment management  
+→ Reduced model-to-production cycle times from **hours to <10 minutes**
+
+* Deployed **Model Context Protocol (MCP)** servers and **LangChain-based RAG** agents to automate technical documentation retrieval  
+→ Reduced manual research time for R&D teams by **40%**
 
 ---
 
-### Software Engineer (Full Stack) — _AMERICAN EXPRESS_
+### Software Engineer (Full Stack) — _American Express_
 
-**August 2021 – December 2024**
+**Aug 2021 – Dec 2024**
 
-* **Database Catalog Portal:** Designed & deployed a self-service platform assisting 1k+ colleagues, eliminating 100% of dev environment artifact engagement requests.
-* **Unused Databases Decommissioning Portal:** Engineered an automated data pipeline achieving **$50k monthly cost savings** through automated decommissioning of 20+ databases monthly.
-* **Database Automation Framework:** Optimized CI-CD pipelines for critical microservices, reducing manual intervention by **95%** for 70k+ daily jobs.
+* Designed and deployed a self-service **Database Catalog Portal** to manage **150+ internal services** globally  
+→ Eliminated **100% of dev-environment artifact engagement requests**
+
+* Engineered an automated data pipeline to identify underutilized assets and trigger decommissioning workflows  
+→ Achieved **$50k monthly cost savings** across **20+ databases monthly**
+
+* Implemented and optimized **CI-CD pipelines** for critical database microservices to minimize manual intervention  
+→ Reduced operational time consumption by **95%** for **70k+ daily jobs**
+
+* Led infrastructure automation initiatives and applied **SRE principles** to enhance system reliability  
+→ Accelerated project delivery for **10+ enterprise-scale applications**
 
 ---
 
-## Skills
+## Academic Projects
 
-### AI & MLOps
-PyTorch, MLflow, LakeFS, MinIO, DNN Explainability (XAI), LangChain, RAG, Zarr
+### Master's Scholar — _IIT Delhi_
 
-### Backend Development
-FastAPI, Python, Golang, Node.js/Express, Java/Spring Boot, SQL/PostgreSQL
+**Jul 2019 – Jun 2021**
 
-### Frontend Development
-ReactJS, Angular, TypeScript, MaterialUI, Plotly
+* Pioneered a real-time medical procedure analysis tool using **U-Net** and **Link-Net CNN** models for surgical skill evaluation  
+→ Secured **HRD Ministry funding** via collaborative research with **AIIMS Delhi**
 
-### Infrastructure & DevOps
-Kubernetes (EKS/Vanilla), NATS, Docker, Helm, Terraform, Airflow, AWS/GCP
+* Developed context recognition and feature extraction modules using **VGG-Net** and deep neural networks for automated scoring  
+→ Achieved high-fidelity skill grading for neurosurgeon training
+
+---
+
+## Achievements & Skills
+
+### Certifications
+* **Associate Cloud Engineer** — Google Cloud Platform (GCP)
+
+### Academics
+* **99.97 Percentile** in IIT-JEE 2016
+* **99.84 Percentile** in KVPY 2015
+* **NTSE Scholar**
+
+### Competitions
+* **3rd Place, Growth Hack 2021** — Developed a RASA NLU virtual assistant for credit card applicants
+
+### Skills
+**Python** | **Go** | **Node.js** | **React** | **Kubernetes** | **Docker** | **Terraform** | **MLflow** | **NATS** | **FastAPI**
 
 ---
