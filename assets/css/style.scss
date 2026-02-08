@@ -1,241 +1,235 @@
+---
+---
+
+/* Reset and Base Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
-  background-color: #fff;
+  max-width: 900px !important;
+  margin: auto !important;
+  padding: 1rem !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+  color: #333 !important;
+  background: #ffffff !important;
 }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
+/* Navigation - Key styling for the top bar */
+.resume-nav {
+  position: sticky !important;
+  top: 0 !important;
+  background: #ffffff !important;
+  border-bottom: 1px solid #eaeaea !important;
+  padding: 0.75rem 1rem !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 1.5rem !important;
+  z-index: 100 !important;
+  margin: -1rem -1rem 2rem -1rem !important;
 }
 
-.top-nav {
-  text-align: center;
-  padding: 15px 0;
-  border-bottom: 1px solid #e8e8e8;
-  margin-bottom: 30px;
+.resume-nav a {
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  color: #333 !important;
+  font-size: 16px !important;
+  display: inline-block !important;
 }
 
-.top-nav a {
-  color: #267CB9;
-  text-decoration: none;
-  margin: 0 20px;
-  font-weight: 500;
-  font-size: 16px;
+.resume-nav a:hover {
+  color: #0056b3 !important;
+  text-decoration: none !important;
 }
 
-.top-nav a:hover {
-  color: #069;
-  text-decoration: underline;
-}
-
+/* Main Content */
 main {
-  padding: 20px 0;
+  padding: 1rem 0 !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #222;
-  font-weight: 600;
-  line-height: 1.2;
-}
-
+/* Typography */
 h1 {
-  font-size: 32px;
-  border-bottom: none;
-  margin-bottom: 15px;
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+  margin-bottom: 1rem !important;
+  margin-top: 0 !important;
+  line-height: 1.2 !important;
+  border: none !important;
+  border-bottom: none !important;
 }
 
 h2 {
-  font-size: 24px;
-  border-bottom: 2px solid #e8e8e8;
-  padding-bottom: 10px;
-  margin-top: 30px;
-  margin-bottom: 15px;
+  font-size: 1.75rem !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+  border-bottom: 2px solid #eaeaea !important;
+  padding-bottom: 0.5rem !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 1.25rem !important;
 }
 
 h3 {
-  font-size: 20px;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: #000 !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 0.75rem !important;
+  line-height: 1.4 !important;
 }
 
 h4 {
-  font-size: 18px;
-  margin-top: 20px;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+  margin-top: 1rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
+/* Paragraphs */
 p {
-  margin: 0 0 15px;
+  margin-bottom: 1rem !important;
+  margin-top: 0 !important;
+  line-height: 1.6 !important;
 }
 
+/* Contact info styling */
+h1 + p {
+  font-size: 1rem !important;
+  line-height: 1.8 !important;
+}
+
+/* Links */
 a {
-  color: #267CB9;
-  text-decoration: none;
+  color: #0056b3 !important;
+  text-decoration: none !important;
 }
 
 a:hover {
-  color: #069;
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
+/* Emphasis */
 strong {
-  font-weight: 600;
-  color: #222; // High-contrast for metrics and important text
+  font-weight: 700 !important;
+  color: #000 !important;
 }
 
+em {
+  font-style: italic !important;
+  color: #555 !important;
+}
+
+/* Lists */
 ul {
-  list-style: disc;
-  padding-left: 20px;
-  margin: 0 0 15px;
+  list-style: disc !important;
+  list-style-position: outside !important;
+  padding-left: 1.5rem !important;
+  margin: 1rem 0 1.5rem 0 !important;
+}
+
+ol {
+  list-style: decimal !important;
+  list-style-position: outside !important;
+  padding-left: 1.5rem !important;
+  margin: 1rem 0 1.5rem 0 !important;
 }
 
 li {
-  margin-bottom: 8px;
-  line-height: 1.7; // Better spacing for bullet points
+  margin-bottom: 0.75rem !important;
+  line-height: 1.6 !important;
+  padding-left: 0 !important;
 }
 
-// Optional: Subtle indent for arrow-style lines
-.arrow-line {
-  padding-left: 20px;
-  color: #666;
-  font-weight: 500;
+/* Horizontal Rules */
+hr {
+  border: 0 !important;
+  border-top: 1px solid #eaeaea !important;
+  margin: 2rem 0 !important;
+  height: 0 !important;
 }
 
-// Make bold metrics pop in experience section
-#experience ul li strong,
-#skills ul li strong {
-  color: #222;
-  font-weight: 700;
-}
-
+/* Code */
 code {
-  font-family: 'Courier New', Courier, monospace;
-  background: #f4f4f4;
-  padding: 2px 6px;
-  border-radius: 3px;
-  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace !important;
+  background: #f5f5f5 !important;
+  padding: 0.2rem 0.4rem !important;
+  border-radius: 3px !important;
+  font-size: 0.9em !important;
 }
 
 pre {
-  background: #f4f4f4;
-  padding: 10px;
-  border-radius: 5px;
-  overflow-x: auto;
+  background: #f5f5f5 !important;
+  padding: 1rem !important;
+  border-radius: 5px !important;
+  overflow-x: auto !important;
+  margin: 1rem 0 !important;
 }
 
-hr {
-  border: 0;
-  border-top: 1px solid #e8e8e8;
-  margin: 20px 0;
+pre code {
+  background: none !important;
+  padding: 0 !important;
 }
 
 blockquote {
-  border-left: 4px solid #267CB9;
-  padding-left: 20px;
-  margin: 15px 0;
-  color: #666;
+  border-left: 3px solid #ddd !important;
+  padding-left: 1rem !important;
+  margin: 1rem 0 !important;
+  color: #666 !important;
 }
 
-/* Navigation links at top */
-section > p:first-child {
-  text-align: center;
-  font-size: 14px;
-  padding: 10px 0;
-  border-bottom: 1px solid #e8e8e8;
-  margin-bottom: 20px;
+/* Sections */
+section {
+  margin-bottom: 2rem !important;
 }
 
-section > p:first-child a {
-  margin: 0 15px;
-  font-weight: 500;
+#education,
+#experience,
+#academic-projects,
+#achievements--skills {
+  margin-bottom: 2rem !important;
 }
 
-/* Experience section styling */
-h3 + p > strong {
-  display: block;
-  margin-bottom: 5px;
-}
-
-/* Responsive design */
-@media print, screen and (max-width: 960px) {
-  div.wrapper {
-    width: auto;
-    margin: 0;
-  }
-
-  header, section, footer {
-    float: none;
-    position: static;
-    width: auto;
-  }
-
-  header {
-    padding-right: 320px;
-  }
-
-  section {
-    border: 1px solid #e5e5e5;
-    border-width: 1px 0;
-    padding: 20px 0;
-    margin: 0 0 20px;
-  }
-
-  header a small {
-    display: inline;
-  }
-
-  header ul {
-    position: absolute;
-    right: 50px;
-    top: 52px;
-  }
-}
-
-@media print, screen and (max-width: 720px) {
+/* Responsive */
+@media (max-width: 768px) {
   body {
-    word-wrap: break-word;
+    padding: 0.5rem !important;
   }
-
-  header {
-    padding: 0;
+  
+  .resume-nav {
+    gap: 0.75rem !important;
+    padding: 0.5rem !important;
   }
-
-  header ul, header p.view {
-    position: static;
+  
+  h1 {
+    font-size: 2rem !important;
   }
-
-  pre, code {
-    word-wrap: normal;
+  
+  h2 {
+    font-size: 1.5rem !important;
   }
-}
-
-@media print, screen and (max-width: 480px) {
-  body {
-    padding: 15px;
-  }
-
-  header ul {
-    width: 99%;
-  }
-
-  header li, header ul li + li + li {
-    width: 33%;
+  
+  h3 {
+    font-size: 1.1rem !important;
   }
 }
 
 @media print {
+  .resume-nav {
+    display: none !important;
+  }
+  
   body {
-    padding: 0.4in;
-    font-size: 12pt;
-    color: #444;
+    max-width: 100% !important;
+    padding: 0 !important;
   }
 }
