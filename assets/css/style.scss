@@ -248,9 +248,35 @@ section {
 
 #education,
 #experience,
-#academic-projects,
-#achievements--skills {
+#technical-skills,
+#research--internships,
+#achievements {
   margin-bottom: 2rem !important;
+}
+
+/* Back to Top Link */
+.back-to-top {
+  text-align: center !important;
+  margin-top: 3rem !important;
+  margin-bottom: 2rem !important;
+  padding: 1.5rem 0 !important;
+  border-top: 1px solid #eaeaea !important;
+}
+
+.back-to-top a {
+  color: #0056b3 !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  text-decoration: none !important;
+  padding: 10px 20px !important;
+  display: inline-block !important;
+  transition: all 0.2s ease !important;
+}
+
+.back-to-top a:hover {
+  color: #003d82 !important;
+  text-decoration: none !important;
+  transform: translateY(-2px) !important;
 }
 
 /* Table styling for Technical Skills */
