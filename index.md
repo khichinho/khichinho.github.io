@@ -3,14 +3,19 @@ layout: default
 title: Hardik Khichi
 ---
 
-# Hardik Khichi
-
-**Senior Machine Learning Engineer | MLOps & Full Stack**
-
-📍 Gurugram, India  
-📧 [hardikkhichi.iitd@gmail.com](mailto:hardikkhichi.iitd@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/hardik-khichi)  
-🌐 [Website](https://khichinho.github.io/)
+<div class="profile-header">
+  <img src="Hardik Khichi.jpeg" alt="Hardik Khichi - Senior Machine Learning Engineer" class="profile-image">
+  <div class="profile-info">
+    <h1>Hardik Khichi</h1>
+    <p class="tagline"><strong>Senior Machine Learning Engineer | MLOps & Full Stack</strong></p>
+    <p class="seo-tagline">IIT Delhi Graduate • 5 Years Experience • Building Cloud-Native ML & Distributed Systems</p>
+    <div class="contact-info">
+      <p>📍 Gurugram, India</p>
+      <p>📧 <a href="mailto:hardikkhichi.iitd@gmail.com">hardikkhichi.iitd@gmail.com</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/hardik-khichi" rel="noopener noreferrer" target="_blank">LinkedIn</a></p>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -52,17 +57,22 @@ _Bachelor's and Master's of Technology (Dual Degree) in Computer Science_
 
 **Aug 2021 – Dec 2024**
 
-* Designed and deployed a self-service **Database Catalog Portal** to manage **150+ internal services** globally  
-  → Eliminated **100% of dev-environment artifact engagement requests**
+* Designed and deployed a self-service **Database Catalog Portal** facilitating **125+ unique journeys** to empower **1k+ global colleagues** through the entire database lifecycle 
+  → Eliminated **100% of dev-environment** and reduced **40% of higher-environment** artifact engagement requests
 
-* Engineered an automated data pipeline to identify underutilized assets and trigger decommissioning workflows  
-  → Achieved **$50k monthly cost savings** across **20+ databases monthly**
+* Engineered an automated data pipeline to analyze usage patterns and trigger decommissioning/scaling workflows for underutilized assets  
+  → Achieved **$50k monthly cost savings** by managing the corrective actions of **20+ databases monthly**
 
-* Implemented and optimized **CI-CD pipelines** for critical database microservices to minimize manual intervention  
+* Implemented and optimized **CI-CD pipelines** for critical database microservices to eliminate manual intervention and accelerate deployment cycles 
   → Reduced operational time consumption by **95%** for **70k+ daily jobs**
 
-* Led infrastructure automation initiatives and applied **SRE principles** to enhance system reliability  
-  → Accelerated project delivery for **10+ enterprise-scale applications**
+* Led infrastructure automation initiatives and assumed complete ownership of **150+ inner-source services** by applying **SRE principles** 
+  → Accelerated project delivery and enhanced scalability for **10+ enterprise-scale applications**
+
+* **Served as Scrum Master** for the India Database Workstream, managing **JIRA** workflows and **orchestrating PI/Sprint Planning** for global cross-functional teams
+  → Streamlined delivery velocity and ensured alignment across high-concurrency database initiatives
+
+
 
 ---
 

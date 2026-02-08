@@ -56,6 +56,60 @@ main {
   padding: 1rem 0 !important;
 }
 
+/* Profile Header with Image */
+.profile-header {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 2.5rem !important;
+  margin-bottom: 2rem !important;
+  flex-wrap: wrap !important;
+}
+
+.profile-image {
+  width: 180px !important;
+  height: 180px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 4px solid #eaeaea !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  flex-shrink: 0 !important;
+}
+
+.profile-info {
+  flex: 1 !important;
+  min-width: 300px !important;
+}
+
+.profile-info h1 {
+  margin-bottom: 0.5rem !important;
+  margin-top: 0 !important;
+}
+
+.profile-info .tagline {
+  font-size: 1.1rem !important;
+  color: #555 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.seo-tagline {
+  font-size: 0.9rem !important;
+  color: #777 !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.8rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+}
+
+.contact-info {
+  margin-top: 1rem !important;
+}
+
+.contact-info p {
+  margin-bottom: 0.3rem !important;
+  font-size: 0.95rem !important;
+  line-height: 1.4 !important;
+}
+
 /* Typography */
 h1 {
   font-size: 2.5rem !important;
@@ -210,6 +264,22 @@ section {
     padding: 0.5rem !important;
   }
   
+  .profile-header {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 1.5rem !important;
+  }
+  
+  .profile-image {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  
+  .contact-info p {
+    font-size: 0.9rem !important;
+  }
+  
   h1 {
     font-size: 2rem !important;
   }
@@ -226,6 +296,11 @@ section {
 @media print {
   .resume-nav {
     display: none !important;
+  }
+  
+  .profile-image {
+    width: 100px !important;
+    height: 100px !important;
   }
   
   body {

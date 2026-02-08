@@ -3,8 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.keywords }}">
+    <meta name="author" content="{{ site.author }}">
+    
+    <!-- Open Graph for LinkedIn/Social Sharing -->
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.url }}/Hardik Khichi.jpeg">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:type" content="profile">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="{{ site.url }}/Hardik Khichi.jpeg">
+    
+    <title>{{ page.title }} - {{ site.description }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    
+    <!-- Structured Data for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Hardik Khichi",
+      "jobTitle": "Senior Machine Learning Engineer",
+      "url": "{{ site.url }}",
+      "image": "{{ site.url }}/Hardik Khichi.jpeg",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Indian Institute of Technology Delhi"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Keysight Technologies"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/hardik-khichi"
+      ],
+      "knowsAbout": ["Machine Learning", "MLOps", "Kubernetes", "FastAPI", "Python", "Golang", "Distributed Systems", "LakeFS", "MinIO"]
+    }
+    </script>
 </head>
 <body>
     <nav class="resume-nav">
@@ -15,7 +56,9 @@
     </nav>
     
     <main>
-        {{ content }}
+        <article itemscope itemtype="https://schema.org/Person">
+            {{ content }}
+        </article>
     </main>
 </body>
 </html>
