@@ -1,10 +1,14 @@
-# Hi there, I'm Hardik Khichi 👋
-
-[![Linkedin](https://img.shields.io/badge/LinkedIn-Hardik%20Khichi-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/hardik-khichi)
-[![Website](https://img.shields.io/badge/Portfolio-khichinho.github.io-green?style=flat&logo=google-chrome)](https://khichinho.github.io)
-[![Email](https://img.shields.io/badge/Email-hardikkhichi.iitd%40gmail.com-red?style=flat&logo=gmail)](mailto:hardikkhichi.iitd@gmail.com)
-
-> **Senior Machine Learning Engineer** & **IIT Delhi Alumnus** with 5+ years of experience architecting **Vendor-Agnostic MLOps Platforms** and distributed systems.
+<div align="center">
+  <img src="hardik.jpeg" alt="Hardik Khichi" width="180" style="border-radius: 50%; margin-bottom: 20px;"/>
+  
+  # Hi there, I'm Hardik Khichi 👋
+  
+  [![Linkedin](https://img.shields.io/badge/LinkedIn-Hardik%20Khichi-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/hardik-khichi)
+  [![Website](https://img.shields.io/badge/Portfolio-khichinho.github.io-green?style=flat&logo=google-chrome)](https://khichinho.github.io)
+  [![Email](https://img.shields.io/badge/Email-hardikkhichi.iitd%40gmail.com-red?style=flat&logo=gmail)](mailto:hardikkhichi.iitd@gmail.com)
+  
+  > **Senior Machine Learning Engineer** & **IIT Delhi Alumnus** with 5+ years of experience architecting **Vendor-Agnostic MLOps Platforms** and distributed systems.
+</div>
 
 ---
 
@@ -103,7 +107,7 @@ My approach to building production systems focuses on sovereignty and reproducib
 ---
 
 ### 🏆 Honors
-* **99.97 Percentile** in IIT-JEE 2016 (Top 0.03% of India)
+* **99.97 Percentile** in IIT-JEE 2016
 * **Associate Cloud Engineer** (Google Cloud Platform)
 
 ---
