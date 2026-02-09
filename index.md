@@ -48,7 +48,7 @@ _Bachelor's and Master's of Technology (Dual Degree) in Computer Science_
 * Productionized a vendor-neutral ML SaaS platform using **FastAPI** and Vanilla **Kubernetes** for Tier-1 automotive and semiconductor partners like Samsung, Volkswagen, and Apple  
   → Scaled adoption from zero to **300+ daily active users** globally in **<1 year**
 
-* **Optimized** the end-to-end MLOps lifecycle by architecting a standardized **MLflow** ecosystem; supporting **automated experiment execution**, **artifact tracking**, and comprehensive **metric logging**  
+* Optimized the end-to-end MLOps lifecycle by architecting a standardized **MLflow** ecosystem; supporting **automated experiment execution**, **artifact tracking**, and comprehensive **metric logging**  
   → Reduced model-to-production cycle times from **hours to <10 minutes**
 
 * Architected a completely open-source dataset and model storage layer using **MinIO** and **LakeFS**; ensuring zero vendor lock-in and support for a wide variety of use cases - from public cloud to on-box deployment  
@@ -60,8 +60,7 @@ _Bachelor's and Master's of Technology (Dual Degree) in Computer Science_
 * Developed a comprehensive full-stack access layer and cross-language client suite (**Python & JS**) integrating **Plotly** and **Dask** for distributed, real-time visualization of data transformations  
   → **Enabled user autonomy** by providing a choice of interactive **UIs**, **Swagger APIs**, or **programmatic clients**
 
-* Deployed **Model Context Protocol (MCP)** servers and **LangChain-based RAG** agents to automate technical documentation retrieval  
-  → Reduced manual research time for R&D teams by an estimated **40%**
+* Deployed **Model Context Protocol (MCP)** servers and **LangChain-based RAG** agents to automate technical documentation retrieval
 
 ### Software Engineer (Full Stack) — _American Express_
 **Aug 2021 – Dec 2024**
